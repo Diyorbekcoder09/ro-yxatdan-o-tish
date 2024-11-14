@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form {
+    width: 450px;
+    height: 700px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.text {
+    text-align: center;
+    font-size: 24px;
+}
+
+.text2 {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.input1 {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 0px 20px;
+    font-size: 18px;
+}
+
+.smal {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.select {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.kun {
+    width: 100%;
+    height: 35px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 1px 10px;
+}
+
+.oy {
+    width: 100%;
+    height: 35px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.yil {
+    width: 100%;
+    height: 35px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.guruh {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.jins {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.login {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    padding: 0px 20px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    border-radius: 5px;
+    width: 100%;
+    height: 45px;
+    border: 1px solid black;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.parol {
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+.pech {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.btn {
+    width: 220px;
+    height: 42px;
+    border: 1px solid transparent;
+    margin-left: 100px;
+    background-color: chartreuse;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    transition: .5s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    transition: .5s;
+    border: 1px solid cadetblue;
+    color: cadetblue;
+}
+
+.text3 {
+    font-size: 20px;
+    color: dodgerblue;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.fa-eye {
+    cursor: pointer;
+    padding: 5px;
+    display: none !important;
+
+}
+
+.fa-eye-slash {
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+.bor {
+    display: none !important;
+}
+
+.yuq {
+    display: block !important;
+}
